@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Nytrix Labs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/Frame_211.png",
   "navigation": {
     "pages": [
       "home"
@@ -36,13 +36,14 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/NytrixLabs"
     }
   },
   "appearance": {
     "strict": true,
     "default": "dark"
+  },
+  "background": {
+    "image": "/images/1920x910-Blog-Header-1-4.jpg"
   }
 }
