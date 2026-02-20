@@ -44,7 +44,12 @@
     "default": "dark"
   },
   "background": {
-    "image": "/images/1920x910-Blog-Header-1-4.jpg",
     "decoration": "gradient"
+  },
+  "fonts": {
+    "family": "Inter"
+  },
+  "banner": {
+    "content": "Severn for Fluxer is currently **down**."
   }
 }
