@@ -13,10 +13,7 @@
       "home"
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": "/images/Frame_211.png",
   "navbar": {
     "links": [
       {
@@ -43,5 +40,9 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "appearance": {
+    "strict": true,
+    "default": "dark"
   }
 }
