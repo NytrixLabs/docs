@@ -4,8 +4,8 @@
   "name": "Nytrix Labs",
   "colors": {
     "primary": "#130f0f",
-    "light": "#000000",
-    "dark": "#ffffff"
+    "light": "#ffffff",
+    "dark": "#000000"
   },
   "favicon": "/images/Frame_211.png",
   "navigation": {
