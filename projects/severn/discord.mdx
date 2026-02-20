@@ -12,9 +12,40 @@ Here is some things everyone using Severn should know:
 
 <Accordion title="Prefix Example">
   <Frame>
-    <img
-      src="/images/severnpingexample.png"
-      alt="Screenshot of a user saying v!ping to a bot named Severn."
-    />
+    ![Screenshot of a user saying v!ping to a bot named Severn.](/images/severnpingexample.png)
   </Frame>
 </Accordion>
+
+- Severn is in **alpha** and is VERY buggy.
+
+# Installation
+
+Severn can be installed in 2 ways. They are:
+
+- Administrator Install
+- Fine-grained Install
+
+**_I strongly recommend the Administrator Install, see below for more._**
+
+### What does Administrator Install mean?
+
+Administrator Install means you grant the bot (Severn) the Administrator permission. 
+<Warning>
+  Administrator is a **dangerous** permission to grant!
+</Warning>
+
+The only upside to this is that you **do not** have to kick and re-add Severn to your server when it needs a new permission.
+
+### What does Fine-grained Install mean? 
+
+Fine-grained Install means the bo will only be given the permissions it **requires** to work properly.
+
+<Info>This is the safest route for large servers.</Info>
+
+The only downside to this is that you **have to** have to kick and re-add Severn to your server when it needs a new permission.
+
+<Columns cols={2}>
+<Card title="Administrator Install" href="https://discord.com/oauth2/authorize?client_id=1434851618339160184&permissions=8&integration_type=0&scope=bot" cta="Add to Discord via OAuth2">
+This will install Severn to your server with **Administrator** permissions.
+</Card>
+</Columns>
