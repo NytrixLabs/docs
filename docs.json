@@ -57,7 +57,8 @@
     "content": "Severn for Fluxer is currently **down**."
   },
   "thumbnails": {
-    "background": "/images/1920x910-Blog-Header-1-4.jpg"
+    "background": "/images/1920x910-Blog-Header-1-4-1.jpg",
+    "appearance": "dark"
   },
   "styling": {
     "latex": true
