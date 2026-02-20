@@ -46,7 +46,8 @@
   "background": {
     "decoration": "gradient",
     "color": {
-      "dark": "#ffffff"
+      "dark": "#000000",
+      "light": "#ffffff"
     }
   },
   "fonts": {
