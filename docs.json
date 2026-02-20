@@ -13,7 +13,7 @@
       "home"
     ]
   },
-  "logo": "/images/Frame_211.png",
+  "logo": "/images/Frame_211-removebg-preview.png",
   "navbar": {
     "links": [
       {
@@ -61,5 +61,20 @@
   },
   "styling": {
     "latex": true
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "seo": {
+    "indexing": "all"
+  },
+  "errors": {
+    "404": {
+      "title": "You have entered the void.",
+      "description": "You don't want to be in the void, so please click one of the links below."
+    }
   }
 }
