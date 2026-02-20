@@ -44,7 +44,10 @@
     "default": "dark"
   },
   "background": {
-    "decoration": "gradient"
+    "decoration": "gradient",
+    "color": {
+      "dark": "#ffffff"
+    }
   },
   "fonts": {
     "family": "Inter"
