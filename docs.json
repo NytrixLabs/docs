@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Nytrix Labs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#130f0f",
+    "light": "#000000",
+    "dark": "#ffffff"
   },
   "favicon": "/images/Frame_211.png",
   "navigation": {
@@ -44,6 +44,7 @@
     "default": "dark"
   },
   "background": {
-    "image": "/images/1920x910-Blog-Header-1-4.jpg"
+    "image": "/images/1920x910-Blog-Header-1-4.jpg",
+    "decoration": "gradient"
   }
 }
