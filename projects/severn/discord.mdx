@@ -29,26 +29,99 @@ Severn can be installed in 2 ways. They are:
 
 ### What does Administrator Install mean?
 
-Administrator Install means you grant the bot (Severn) the Administrator permission. 
+Administrator Install means you grant the bot (Severn) the Administrator permission.
+
 <Warning>
   Administrator is a **dangerous** permission to grant!
 </Warning>
 
 The only upside to this is that you **do not** have to kick and re-add Severn to your server when it needs a new permission.
 
-### What does Fine-grained Install mean? 
+### What does Fine-grained Install mean?
 
-Fine-grained Install means the bo will only be given the permissions it **requires** to work properly.
+Fine-grained Install means the bot will only be given the permissions it **requires** to work properly.
 
-<Info>This is the safest route for large servers.</Info>
+<Info>
+  This is the safest route for large servers.
+</Info>
 
 The only downside to this is that you **have to** have to kick and re-add Severn to your server when it needs a new permission.
 
+### Get Severn
+
 <Columns cols={2}>
-<Card title="Administrator Install" href="https://discord.com/oauth2/authorize?client_id=1434851618339160184&permissions=8&integration_type=0&scope=bot" cta="Add to Discord via OAuth2">
-This will install Severn to your server with **Administrator** permissions.
-</Card>
-<Card title="Fine-grained Install" href="" cta="Unavailable">
-You cannot use Fine-grained Install at this time.
-</Card>
+  <Card href="https://discord.com/oauth2/authorize?client_id=1434851618339160184&permissions=8&integration_type=0&scope=bot" cta="Add to Discord via OAuth2" title="Administrator Install">
+    This will install Severn to your server with **Administrator** permissions.
+  </Card>
+  <Card cta="Unavailable" title="Fine-grained Install">
+    You cannot use Fine-grained Install at this time.
+  </Card>
 </Columns>
+
+# Features
+
+Here's a quick rundown of what Severn can do. He can:
+
+- Tell jokes
+- Roll a dice
+- Pester you with Parrot
+- Give you a nice QoTD
+- Do math and equate Pi.
+- Give you your - or another's avatar.
+- Give you [Krystal](/projects/krystal) points for doing a good job at a game.
+
+That's about it at the moment!
+
+# Commands
+
+You can always see commands with `v!help` or `/help` but here they are:
+
+### Fun
+
+`v!coinflip` - Flips a coin and gives you either Heads or Tails.
+
+`v!dog` - Gives you a random dog image.
+
+`v!eightball` - Ask Severn's 8ball a question!
+
+`v!game` - Helper for Severn's [games](/projects/severn/discord#Games)
+
+`v!joke` - Gives you a random joke.
+
+`v!roll` - Rolls a dice (1-6).
+
+`v!say` - Make Severn say something! (This is filtered.)
+
+### Math
+
+`v!math` - Calculates the given math expression.
+
+`v!pi` - Calculate Pi up to a specified number.
+
+### QoTD
+
+`v!setqotd` - Sets the question of the day channel.
+
+### Utility
+
+`v!about` - Severn will tell you about him!
+
+`v!avatar` - Shows your or another user's avatar.
+
+`v!daily` - Gives you daily [Krystal](/projects/krystal) points. (This only works if Krystal is in the guild.)
+
+`v!help` - Shows you the help screen.
+
+`v!info` - Information about the bot at that given moment.
+
+`v!invite` - Creates a invite to the current server with a optional attached role.
+
+`v!parrot` - Turn Parrot on and off
+
+`v!ping` - Shows you the Bot's ping and the Server ping.
+
+`v!setup` - Button-based wrapper for `v!qotdset` and `v!parrot`
+
+`v!support` - Gives you a invite to the Severn and Krystal support server.
+
+**That's it!**
